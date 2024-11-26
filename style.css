@@ -7,7 +7,7 @@ body{
     margin: 0;
     font-family: 'Montserrat';
     background-color: #101632dd;
-    color: #e2eaff;
+    color: #929a9c;
 }
 
 div, ul ,nav, header, footer, a, li, label{
@@ -105,3 +105,75 @@ div, ul ,nav, header, footer, a, li, label{
 }
 
 /* --------- HEADER ENDS --------- */
+
+/* ========= PROFILE SECTION ========= */
+
+.profile__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.profile__data-container {
+    max-width: 600px;
+    padding: 12px;
+}
+
+.profile__img-container {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.profile__img {
+    max-width: 100%;
+    width: 720px;
+}
+
+h1 {
+    color: #26a;
+}
+
+.profile__skills-container h2{
+    color: #26a;
+}
+
+.profile__skills {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    max-width: 600px;
+    align-items: center;
+}
+
+.load-bar {
+    border: 2px solid #48e;
+    border-radius: 8px;
+    color: #fff;
+    padding: 2px;
+    font-size: 12px;
+    width: 80%;
+    margin: 4px;
+}
+
+.load-bar__bar {
+    background-color: #48e;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+.bar--65 {
+    width: 65%;
+}
+
+.bar--70 {
+    width: 70%;
+}
+
+.bar--80 {
+    width: 80%;
+}
+
+.profile__skill-name {
+    color: #48e;
+}
